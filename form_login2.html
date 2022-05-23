@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>
+            Form Login
+        </title>
+    </head>
+    <body>
+        <form action="form_process.php" methods="POST">
+            <fieldset>
+            <legend><b>Login</b></legend>
+            <p>
+                <label>Username :</label>
+                <input type="text" name="username" placeholder="username..." minlength="8" maxlength="16" required autofocus="" data-errormessage-value-missing="Please fill out this field!">
+            </p>
+            <p>
+                <label>password :</label>
+                <input type="password" name="password" placeholder="password..." minlength="8" maxlength="16" required autofocus="" data-errormessage-value-missing="Please fill out this field!">
+            </p>
+            <p>
+                <label><input type="checkbox" name="remember" value="remember...">Remember me </label> 
+            </p>
+            <p>
+                <input type="submit" name="submit" value="Login">
+            </p>
+            </fieldset>
+        </form>
+    </body>
+</html>
